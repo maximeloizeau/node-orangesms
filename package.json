@@ -9,6 +9,7 @@
   "author": "Maxime Loizeau",
   "license": "MIT",
   "dependencies": {
-    "promise": "^7.0.0"
+    "promise": "^7.0.0",
+    "request": "^2.55.0"
   }
 }
