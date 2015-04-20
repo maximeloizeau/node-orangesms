@@ -1,0 +1,14 @@
+{
+  "name": "node-orangesms",
+  "version": "0.0.1",
+  "description": "API wrapper for Orange SMS API available through orangepartner.com",
+  "main": "orangesms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxime Loizeau",
+  "license": "MIT",
+  "dependencies": {
+    "promise": "^7.0.0"
+  }
+}
