@@ -1,6 +1,6 @@
 {
   "name": "node-orangesms",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "API wrapper for Orange SMS API available through orangepartner.com",
   "main": "orangesms.js",
   "scripts": {
