@@ -8,7 +8,7 @@ Wrapper for OrangeSMS API, available at [Orange Partner](https://www.orangepartn
     npm install node-orangesms --save
 
 ## Usage example
-You need to register on Orange Partner and register an application with Orange SMS in order to use the API. You'll find the required credentials on your Orange Partner dashboard.
+You need to signup on Orange Partner and register an application with Orange SMS in order to use the API. You'll find the required credentials on your Orange Partner dashboard.
 
     var orangeConfiguration = {
         proxy: {
@@ -18,7 +18,11 @@ You need to register on Orange Partner and register an application with Orange S
         },
         strictSSL: false
     };
-    var orangeSMS = require('node-orangesms')(ORANGE_PARTNER_CLIENT_ID, ORANGE_PARTNER_CLIENT_SECRET, orangeConfiguration);
+    var orangeSMS = require('node-orangesms')(
+        ORANGE_PARTNER_CLIENT_ID,
+        ORANGE_PARTNER_CLIENT_SECRET,
+        orangeConfiguratio
+    );
 
     orangeSMS.getPurchaseOrders()
         .then(function(result) {
