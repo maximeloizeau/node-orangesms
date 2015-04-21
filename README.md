@@ -112,4 +112,5 @@ You can provide a configuration object to the Orange SMS instance. These options
 
 ## Release History
 
+* 0.1.1 First publish on npmjs (package.json updated)
 * 0.1.0 Initial release
